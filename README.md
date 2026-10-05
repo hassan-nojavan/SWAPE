@@ -1,2 +1,2 @@
-# SWESS
-Code for Sparse Weighted Sample Selection: A Nonconvex Optimization Framework
+# SWAPE
+Code for **A Nonconvex Framework for Joint Sparse Sample Weighting and Parameter Estimation**.
