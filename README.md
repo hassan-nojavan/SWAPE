@@ -4,7 +4,7 @@ Code for [A Nonconvex Framework for Joint Sparse Sample Weighting and Parameter 
 
 ## Settings
 
-The scripts apply SWAPE across three applications. The linear regression example evaluates prediction error and outlier detection on clean data and on data with vertical or interior contamination. The neural network example examines binary classification on two-moons data with flipped training labels under four training configurations (no additional regularization, L2 regularization, dropout, and early stopping). The recommender example uses synthetic ratings, while the paper’s recommender experiments use the Netflix Prize dataset.
+The scripts apply SWAPE across three applications. Each script runs one replication per setting and uses fixed hyperparameters. To follow the paper’s protocols, tune the relevant hyperparameters separately for each replication. The linear regression example evaluates prediction error and outlier detection on clean data and on data with vertical or interior contamination. The neural network example examines binary classification on two-moons data with flipped training labels under four training configurations (no additional regularization, L2 regularization, dropout, and early stopping). The recommender example uses synthetic ratings, while the paper’s recommender experiments use the Netflix Prize dataset.
 
 ## Citation
 
